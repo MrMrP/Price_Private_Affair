@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    /* background: url('http://eskipaper.com/images/wedding-backgrounds-2.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #232323; 
+}
+
+
+/* img .container-img {
+    height: 310px;
+} */
+
+section {
+    background-color: #eeeeee;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2, p {
+    font-family: 'Amostely Signature', cursive;
+}
+/* header */
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #384147;
+    text-align: center;
+    user-select: none;
+}
+
+.heading-title {
+    font-family: 'Amostely Signature', cursive;
+    color:#fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.heading-title-story {
+    font-family: 'Amostely Signature', cursive;
+    color:#000000;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.section-title {
+    font-family: 'Amostely Signature', cursive;
+    color:#000000;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.heading-caption {
+    font-family: 'Playfair Display SC', Serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.section-img {
+    background-image: url('../../images/CM_081.jpg');
+   
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        section .mbr-background-video,
+        section .mbr-background-video-preview {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: 0; }
+
+/* .navbar {
+    background-color:  #384147;
+} */
+
+.navbar-toggler {
+    color: #000000;
+    font-size: 25px;
+}
+
+.navbar-toggler .fa-times{
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-bars {
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-times {
+    display: block;
+}
+
+.navbar-nav {
+    padding: 20px;
+}
+
+.nav-link {
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: opacity .5;
+}
+
+.nav-link:hover {
+    color: inherit;
+}
+
+/* .media-container-row {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.mbr-section-text {
+    order: 1;
+}
+
+.theCouple-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.theCouple-description {
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    outline: 5px solid rgba(56, 65, 71, 0.5);
+    outline-offset: -5px;
+    order: 2;
+    margin-top: 5px;
+}
+
+.theCouple-image {
+    order: 1;
+}
+
+.theCouple-image img{
+    width: 100%;
+    max-height: 25rem;
+    display: block;
+}
+
+.invite, #rsvp {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+}
+
+/*Gallery*/
+.section-heading {
+    position: relative;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.section-heading::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(56, 65, 71, 0.5);
+    width: 1px;
+    height: 50px;
+    top: 90px;
+    border-radius: 8px;
+}
+
+/* Lightbox Content */
+.lightbox-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.lightbox-content img {
+    transition: transform 2s;
+}
+
+.lightbox-content:hover img {
+    transform: scale(1.2);
+}
+
+.lightbox-content a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transition: background-color .5s;
+}
+
+.lightbox-content a:hover::before {
+    background-color: rgba(0,0,0,.7);
+}
+
+.lightbox-content a::after {
+    font-family:'Font Awesome 5 Solid';
+    content: "\f00e";
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+    z-index: 101;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.lightbox-content a:hover::after {
+    opacity: .5;
+}
+
+
+/* *! Text-aligns */ */
+.align-left {
+  text-align: left; }
+
+.align-center {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+@media (max-width: 767px) {
+  .align-left, .align-center, .align-right, .mbr-section-btn, .mbr-section-title {
+    text-align: center; } }
+
+/*! Font-weight  */
+.mbr-light {
+  font-weight: 300; }
+
+.mbr-regular {
+  font-weight: 400; }
+
+.mbr-semibold {
+  font-weight: 500; }
+
+.mbr-bold {
+  font-weight: 700; }
+
+  /*! Buttons */
+.mbr-section-btn {
+    margin-left: -.25rem;
+    margin-right: -.25rem;
+    font-size: 0; }
+  
+  nav .mbr-section-btn {
+    margin-left: 0rem;
+    margin-right: 0rem; }
+
+  /*! Btn icon margin */
+.btn .mbr-iconfont, .btn.btn-sm .mbr-iconfont {
+    cursor: pointer;
+    margin-right: 0.5rem; }
+  
+  .btn.btn-md .mbr-iconfont, .btn.btn-md .mbr-iconfont {
+    margin-right: 0.8rem; }
+  
+  .mbr-regular {
+    font-weight: 400; }
+  
+  .mbr-semibold {
+    font-weight: 500; }
+  
+  .mbr-bold {
+    font-weight: 700; }
+  
+  [type="submit"] {
+    -webkit-appearance: none; }
+
+    /*! Media  */
+.media-size-item {
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    flex: 1 1 auto; }
+  
+  .media-content {
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%; }
+  
+  .media-container-row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start; }
+    .media-container-row .media-size-item {
+      width: 400px; }
+  
+  .media-container-column {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch; }
+    .media-container-column > * {
+      width: 100%; }
+  
+  @media (min-width: 992px) {
+    .media-container-row {
+      -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; } }
+  figure {
+    overflow: hidden; }
+  
+  figure[mbr-media-size] {
+    transition: width 0.1s; }
+  
+  .mbr-figure img, .mbr-figure iframe {
+    display: block;
+    width: 100%; }
+  
+  .card {
+    background-color: transparent;
+    border: none; }
+  
+  .card-img {
+    text-align: center;
+    flex-shrink: 0; }
+  
+  .media {
+    max-width: 100%;
+    margin: 0 auto; }
+  
+  .mbr-figure {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    -webkit-align-self: center;
+    align-self: center; }
+  
+  .media-container > div {
+    max-width: 100%; }
+  
+  .mbr-figure img, .card-img img {
+    width: 60%; }
+  
+  @media (max-width: 991px) {
+    .media-size-item {
+      width: auto !important; }
+  
+    .media {
+      width: auto; }
+  
+    .mbr-figure {
+      width: 100% !important; } }
+  
+
+      /*! Full-screen */
+.mbr-fullscreen .mbr-overlay {
+    min-height: 100vh; }
+  
+  .mbr-fullscreen {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }

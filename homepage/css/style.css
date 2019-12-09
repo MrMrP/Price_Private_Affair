@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.section-img {
+    background-image: url('../../images/CM_081.jpg');
+   
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        section .mbr-background-video,
+        section .mbr-background-video-preview {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: 0; }
+
+img .container-img {
+    height: 310px;
+}
+
+/* section {
+    background-color: #eeeeee;
+} */
+
+a:hover {
+    text-decoration: none;
+}
+
+h2, p {
+    font-family: 'Amostely Signature', cursive;
+}
+
+h3, p {
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #000000;
+    text-align: center;
+    user-select: none;
+}
+
+.heading-title {
+    font-family: 'Amostely Signature', cursive;
+    color:#000000;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.heading-title-story {
+    font-family: 'Amostely Signature', cursive;
+    color:#000000;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.section-title {
+    font-family: 'Amostely Signature', cursive;
+    color:#000000;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.heading-caption {
+    font-family: 'Playfair Display SC', Serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+/* .section-img {
+    
+
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        section .mbr-background-video,
+        section .mbr-background-video-preview {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: 0; } */
+
+/* .navbar {
+    background-color:  #384147;
+} */
+
+.navbar-toggler {
+    color: #000000;
+    font-size: 25px;
+}
+
+.navbar-toggler .fa-times{
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-bars {
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-times {
+    display: block;
+}
+
+.navbar-nav {
+    padding: 20px;
+}
+
+.nav-link {
+    color:#000000;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: opacity .5;
+}
+
+.nav-link:hover {
+    color: inherit;
+}
+
+
+
+
+/* Wedding Weekend Styling  */
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(56, 65, 71, 0.5);
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+position: relative;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+content: '';
+position: absolute;
+width: 6px;
+background-color: white;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-container {
+padding: 10px 40px;
+position: relative;
+background-color: inherit;
+width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: -17px;
+background-color: white;
+border: 4px solid #FF9F55;
+top: 15px;
+border-radius: 50%;
+z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+left: 0;
+}
+
+/* Place the container to the right */
+.right {
+left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+right: 30px;
+border: medium solid white;
+border-width: 10px 0 10px 10px;
+border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+content: " ";
+height: 0;
+position: absolute;
+}
+
+/* Registry Styling */
+
+/* body {
+    background-color: white!important;
+} */
+
+.wrapper {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-overflow: none;
+  }
+  /* line 188, ../sass/screen.scss */
+  .wrapper h2 {
+    margin: 80px 0 0 0;
+  }
+  /* line 192, ../sass/screen.scss */
+  .wrapper h2, .wrapper h3 {
+    display: inline-block;
+  }
+  /* line 195, ../sass/screen.scss */
+  .ie7 .wrapper h2, .ie7 .wrapper h3 {
+    display: block;
+    margin-left: 30%;
+  }
+
+  /* line 703, ../sass/screen.scss */
+#registry {
+    height: 300px;
+  }
+  /* line 706, ../sass/screen.scss */
+  #registry .links {
+    overflow: hidden;
+    *zoom: 1;
+    width: 600px;
+    margin: 40px auto;
+  }
+  /* line 712, ../sass/screen.scss */
+  #registry .links div {
+    float: left;
+    width: 95%;
+    text-align: center;
+  }
+  /* line 718, ../sass/screen.scss */
+  #registry .links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+  }
+  /* line 722, ../sass/screen.scss */
+  .ie7 #registry .links a {
+    display: block;
+    margin-left: 35%;
+  }
+
+  /* line 1004, ../sass/screen.scss */
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+  }
+  
+  /* line 1011, ../sass/screen.scss */
+  .ir::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+  } 
+
+  @media screen and (max-width: 1100px) {
+      .wrapper {
+          width: 100%;
+      }
+
+  }
+
+  /* Logistics Styling */
+
+  /* *! Text-aligns */ */
+.align-left {
+    text-align: left; }
+  
+  .align-center {
+    text-align: center; }
+  
+  .align-right {
+    text-align: right; }
+  
+  @media (max-width: 767px) {
+    .align-left, .align-center, .align-right, .mbr-section-btn, .mbr-section-title {
+      text-align: center; } }
+  
+  /*! Font-weight  */
+  .mbr-light {
+    font-weight: 300; }
+  
+  .mbr-regular {
+    font-weight: 400; }
+  
+  .mbr-semibold {
+    font-weight: 500; }
+  
+  .mbr-bold {
+    font-weight: 700; }
+  
+    /*! Buttons */
+  .mbr-section-btn {
+      margin-left: -.25rem;
+      margin-right: -.25rem;
+      font-size: 0; }
+    
+    nav .mbr-section-btn {
+      margin-left: 0rem;
+      margin-right: 0rem; }
+  
+    /*! Btn icon margin */
+  .btn .mbr-iconfont, .btn.btn-sm .mbr-iconfont {
+      cursor: pointer;
+      margin-right: 0.5rem; }
+    
+    .btn.btn-md .mbr-iconfont, .btn.btn-md .mbr-iconfont {
+      margin-right: 0.8rem; }
+    
+    .mbr-regular {
+      font-weight: 400; }
+    
+    .mbr-semibold {
+      font-weight: 500; }
+    
+    .mbr-bold {
+      font-weight: 700; }
+
+/* The Crew Styling  */
+
+.jumbtron, .jumbotron-fluid {
+    padding: 0;
+}
+
+  

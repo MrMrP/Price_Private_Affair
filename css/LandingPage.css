@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2 {
+	font-family: "Raleway", sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	line-height: 1.8;
+}
+
+header{
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+}
+
+
+
+/*.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 65%;
+	z-index: 1:
+	color: white;
+}*/
+
+.content {
+	top: 45.5%;
+	left: 23%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+
+hr {
+	width: 50%;
+	margin: 30px auto;
+	border: 1.5px solid #fff;
+}
+
+p {
+	font-size
+		font-size: 20px;
+		margin: 30px;
+	
+}
+
+h1 {
+	font-size: 60px;
+	letter-spacing: 15px;
+	font-stretch: ultra-condensed;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+#countdown {
+	
+	font-size: 35px;
+}
