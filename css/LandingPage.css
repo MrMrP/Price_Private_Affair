@@ -8,25 +8,35 @@ body,h1,h2 {
 }
 
 body, html {
-	height: 100%;
+	max-height: 100%;
+	max-width: 100%;
 }
 
-body {
+/* body {
 	overflow-x: hidden;
 	line-height: 1.8;
-}
-
-header{
-	height: 100vh;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
-}
+} */
+
+
+/* header{
+	height: 100%;
+} */
+
+/* .bgimg {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+} */
 
 
 
 /*.caption {
-	width: 100%;
+	width: 100%; 
 	max-width: 100%;
 	position: absolute;
 	top: 65%;
@@ -35,13 +45,23 @@ header{
 }*/
 
 .content {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height:100vh;
+	width:100vw;
+}
+
+/* .content {
 	top: 45.5%;
 	left: 23%;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	color: #fff;
 	text-align: center;
-}
+	-ms-transform: translate(-50%, -50%);
+} */
 
 hr {
 	width: 50%;
@@ -50,7 +70,6 @@ hr {
 }
 
 p {
-	font-size
 		font-size: 20px;
 		margin: 30px;
 	
@@ -63,8 +82,15 @@ h1 {
 	font-family: 'Dancing Script', cursive;
 }
 
-
 #countdown {
 	
 	font-size: 35px;
 }
+
+/* @media (min-width: 601px) {
+	
+	body {
+		max-width: auto;
+		max-height: auto;
+	};
+} */
