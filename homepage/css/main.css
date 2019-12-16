@@ -19,9 +19,9 @@ body {
     height: 310px;
 } */
 
-section {
+/* section {
     background-color: #eeeeee;
-}
+} */
 
 a:hover {
     text-decoration: none;
@@ -116,10 +116,11 @@ header {
 }
 
 .nav-link {
-    color:#fff;
+    color:#000000;
     text-transform: uppercase;
     font-size: 12px;
     transition: opacity .5;
+    font-weight: 800px;
 }
 
 .nav-link:hover {
@@ -418,3 +419,45 @@ header {
     min-height: 100vh;
     padding-top: 3rem;
     padding-bottom: 3rem; }
+
+    @media only screen and (min-width: 320px) {
+        header {
+            height: 150px;
+        }   
+        
+        /* .heading-title {
+            font-size: 25px;
+            position: relative;
+            left: 17%;
+        } */
+    }
+    
+    @media only screen and (min-width: 375px) {
+        header {
+            height: 150px;
+        } 
+    }
+    
+    @media only screen and (min-width: 425px) {
+        header {
+            height: 150px;
+        } 
+    }
+    
+    @media only screen and (min-width: 768px) {
+        header {
+            height: 400px;
+        } 
+    }
+    
+    @media only screen and (min-width: 992px) {
+        header {
+            height: 500px;
+        } 
+    } 
+    
+    @media only screen and (min-width: 1024px) {
+        header {
+            height: 700px;
+        }    
+    } 

@@ -1,148 +1,4 @@
-/* * {
-	margin: 0;
-	padding: 0;
-}
-
-body,h1,h2 {
-	font-family: "Raleway", sans-serif;
-}
-
-body, html {
-	height: 100%;
-	width: 100%;
-} */
-
-/* body {
-	overflow-x: hidden;
-	line-height: 1.8;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
-} */
-
-
-/* header{
-	height: 100%;
-} */
-
-/* .bgimg {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
-	min-height: 100%;
-	background-position: center;
-	background-size: cover;
-} */
-
-
-
-/*.caption {
-	width: 100%; 
-	max-width: 100%;
-	position: absolute;
-	top: 65%;
-	z-index: 1:
-	color: white;
-}*/
-
-/* body {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	height:100vh;
-	width:100vw;
-} */
-
-/* .content {
-	top: 45.5%;
-	left: 23%;
-	position: absolute;
-	transform: translate(-50%, -50%);
-	color: #fff;
-	text-align: center;
-	-ms-transform: translate(-50%, -50%);
-} */
-
-/* hr {
-	width: 50%;
-	margin: 30px auto;
-	border: 1.5px solid #fff;
-}
-
-p {
-		font-size: 20px;
-		margin: 30px;
-	
-}
-
-h1 {
-	font-size: 60px;
-	letter-spacing: 15px;
-	font-stretch: ultra-condensed;
-	font-family: 'Dancing Script', cursive;
-}
-
-#countdown {
-	
-	font-size: 35px;
-} */
-
-/* @media (min-width: 320px) {
-	
-	.content {
-		width: 100vw;
-		height: 34vh;
-	};
-}
-
-@media (min-width: 375px) {
-	
-	.content {
-		width: 100vw;
-		height: 40vh;
-	};
-}
-
-@media (min-width: 425px) {
-	
-	.content {
-		width: 100vw;
-		height: 45vh;
-	};
-}
-
-@media (min-width: 768px) {
-	
-	.content {
-		width: 100vw;
-		height: 82vh;
-	};
-} */
-
-
-/* #page {
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
-	height: 100%;
-	width: 100%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	overflow: hidden;
-    } */
-
-    /* @media (max-width: 600px) {
-  #page {      
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
-  }
-} */
-
-/* @media screen and (min-width: 320px) and (max-width:580px) {
-	#page {
-	  background: url("../images/CM_071.jpg") repeat-x
-	}
-  } */
-
-
-  * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -158,7 +14,7 @@ body, html {
 }
 
 .bgimg {
-    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+    background-image: url('./images/CM_071.jpg');
     /* min-height: 100%;
     background-position: center;
     background-size: contain;
@@ -355,7 +211,7 @@ p {
     }
 
     .bgimg {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+        background-image: url('./images/CM_071.jpg');
         background-position: center;
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -391,7 +247,7 @@ p {
     }
 
     .bgimg {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+        background-image: url('./images/CM_071.jpg');
         background-position: center;
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -427,9 +283,40 @@ p {
     }
 
     .bgimg {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/CM_071.jpg");
+        background-image: url('./images/CM_071.jpg');
         background-position: center;
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 } 
+
+/* html, body {
+    margin: 0;
+} */
+
+/* .bg {
+    background: url('images/CM_071.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    background: url('images/CM_071.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden;
+} */
