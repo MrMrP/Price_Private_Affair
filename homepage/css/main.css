@@ -133,13 +133,17 @@ header {
 } */
 
 
-.mbr-section-text {
+/* .mbr-section-text {
     order: 1;
-}
+} */
 
-.theCouple-content {
+/* .theCouple-content {
     display: flex;
     flex-direction: column;
+} */
+
+#theCouple {
+    display: flex;
 }
 
 .theCouple-description {
@@ -153,7 +157,7 @@ header {
 }
 
 .theCouple-image {
-    order: 1;
+    order: 0;
 }
 
 .theCouple-image img{
